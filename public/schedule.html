@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #mydiv{
+        text-align: center;
+        font-size: 80px;
+        background-color: cadetblue;
+    }
+   #t1,tr,td{
+     border: 2px solid black;
+     border-collapse: collapse;
+     padding: 20px;
+   }
+   .mytable{
+    font-size: xx-large;
+    margin: auto;
+    margin-top: 50px;
+    background-color: aqua;
+    
+   }
+   #btn{
+    background-color: green;
+    font-size:xx-large;
+   }
+</style>
+</head>
+<body>
+    <div id="mydiv">Course Schedule</div>
+   
+    <table id="t1" class="mytable">
+        <form>
+            <tr>
+                <td>
+                    <lable for="cid">Course id:</lable>
+                </td>
+                <td>
+                    <input type="text" name="cid" id="cid">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cnm">Course Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="cnm" id="cnm">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cdate">Date:</label>
+                </td>
+                <td>
+                    <input type="date" name="cdate" id="cdate">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ctime">Time:</label>
+                </td>
+                <td>
+                    <input type="time" name="ctime" id="ctime">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit" name="btn" id="btn">Submit</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

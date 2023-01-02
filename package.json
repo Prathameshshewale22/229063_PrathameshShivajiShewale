@@ -1,0 +1,22 @@
+{
+  "name": "229063_prathameshshivajishewale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prathameshshewale22/229063_PrathameshShivajiShewale.git"
+  },
+  "author": "prathamesh_shewale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prathameshshewale22/229063_PrathameshShivajiShewale/issues"
+  },
+  "homepage": "https://github.com/Prathameshshewale22/229063_PrathameshShivajiShewale#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
